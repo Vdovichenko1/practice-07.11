@@ -1,16 +1,17 @@
+// import Accordion from "./Accordion/Accordion";
+// import FAQ from "./FAQ/FAQ";
+// import Gallery from "./Gallery/Gallery";
+import Expresso from "./Expresso/Expresso";
+// import Products from "./Products/Products";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      {/* <Accordion /> */}
+      {/* <FAQ/> */}
+      {/* <Gallery/> */}
+      {/* <Products/> */}
+      <Expresso/>
     </div>
   );
 };
