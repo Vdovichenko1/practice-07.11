@@ -1,6 +1,7 @@
 // import Accordion from "./Accordion/Accordion";
 // import FAQ from "./FAQ/FAQ";
-import ShopCart from "./ShopCart/ShopCart";
+import PokemonAPI from "./PokemonAPI/PokemonAPI";
+// import ShopCart from "./ShopCart/ShopCart";
 // import Gallery from "./Gallery/Gallery";
 // import Products from "./Products/Products";
 
@@ -11,8 +12,8 @@ export const App = () => {
       {/* <FAQ/> */}
       {/* <Gallery/> */}
       {/* <Products/> */}
-      <ShopCart/>
-
+      {/* <ShopCart/> */}
+      <PokemonAPI/>
     </>
   );
 };
